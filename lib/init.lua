@@ -22,7 +22,7 @@ print("IRIS FORK | Loaded /init.lua")
 ]=]
 local Iris = {} :: Types.Iris
 
-local Internal: Types.Internal = getgenv().IRIS_INTERNAL
+local Internal: Types.Internal = getgenv().IRIS_INTERNAL(Iris)
 
 --[=[
     @within Iris
