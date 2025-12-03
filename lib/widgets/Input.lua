@@ -1,4 +1,4 @@
-local Types = loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/Types.lua'))()
+local Types = getgenv().IRIS_TYPES
 
 print("IRIS FORK | Loaded /widgets/Input.lua")
 type InputDataTypes = "Num" | "Vector2" | "Vector3" | "UDim" | "UDim2" | "Color3" | "Color4" | "Rect" | "Enum" | "" | string

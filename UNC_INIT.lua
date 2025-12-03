@@ -1,0 +1,27 @@
+getgenv().IRIS_TYPES = loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/Types.lua'))()
+getgenv().IRIS_WIDGET_TYPES = loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/WidgetTypes.lua'))()
+getgenv().IRIS_PUBLIC_TYPES = loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/PubTypes.lua'))()
+getgenv().IRIS_CONFIG = loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/config.lua'))()
+
+getgenv().IRIS_WIDGET_BUTTON = loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/widgets/Button.lua'))()
+getgenv().IRIS_WIDGET_CHECKBOX = loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/widgets/Checkbox.lua'))()
+getgenv().IRIS_WIDGET_COMBO = loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/widgets/Combo.lua'))()
+getgenv().IRIS_WIDGET_FORMAT = loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/widgets/Format.lua'))()
+getgenv().IRIS_WIDGET_IMAGE = loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/widgets/Image.lua'))()
+getgenv().IRIS_WIDGET_INPUT = loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/widgets/Input.lua'))()
+getgenv().IRIS_WIDGET_MENU = loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/widgets/Menu.lua'))()
+getgenv().IRIS_WIDGET_PLOT = loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/widgets/Plot.lua'))()
+getgenv().IRIS_WIDGET_RADIOBUTTON = loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/widgets/RadioButton.lua'))()
+getgenv().IRIS_WIDGET_ROOT = loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/widgets/Root.lua'))()
+getgenv().IRIS_WIDGET_TAB = loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/widgets/Tab.lua'))()
+getgenv().IRIS_WIDGET_TABLE = loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/widgets/Table.lua'))()
+getgenv().IRIS_WIDGET_TEXT = loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/widgets/Text.lua'))()
+getgenv().IRIS_WIDGET_TREE = loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/widgets/Tree.lua'))()
+getgenv().IRIS_WIDGET_WINDOW = loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/widgets/Window.lua'))()
+
+getgenv().IRIS_WIDGETS = loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/widgets/init.lua'))()
+
+getgenv().IRIS_INTERNAL = loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/Internal.lua'))()
+getgenv().IRIS_API = loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/API.lua'))()
+
+getgenv().IRIS = loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/init.lua'))()

@@ -1,4 +1,4 @@
-local Types = loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/Types.lua'))()
+local Types = getgenv().IRIS_TYPES
 
 print("IRIS FORK | Loaded /widgets/Tree.lua")
 return function(Iris: Types.Internal, widgets: Types.WidgetUtility)

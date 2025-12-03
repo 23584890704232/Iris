@@ -1,4 +1,4 @@
-local WidgetTypes = loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/WidgetTypes.lua'))()
+local WidgetTypes = getgenv().IRIS_WIDGET_TYPES
 print("IRIS FORK | Loaded /Types.lua")
 export type ID = WidgetTypes.ID
 export type State<T> = WidgetTypes.State<T>

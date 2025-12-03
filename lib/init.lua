@@ -1,5 +1,5 @@
 --!optimize 2
-local Types = loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/Types.lua'))()
+local Types = getgenv().IRIS_TYPES
 print("IRIS FORK | Loaded /init.lua")
 --[=[
     @class Iris
@@ -22,7 +22,7 @@ print("IRIS FORK | Loaded /init.lua")
 ]=]
 local Iris = {} :: Types.Iris
 
-local Internal: Types.Internal = loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/Internal.lua'))()(Iris)
+local Internal: Types.Internal = getgenv().IRIS_INTERNAL
 
 --[=[
     @within Iris
@@ -332,7 +332,7 @@ end
 
     TemplateConfig provides a table of default styles and configurations which you may apply to your UI.
 ]=]
-Iris.TemplateConfig = loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/config.lua'))()
+Iris.TemplateConfig = getgenv().IRIS_CONFIG
 Iris.UpdateGlobalConfig(Iris.TemplateConfig.colorDark) -- use colorDark and sizeDefault themes by default
 Iris.UpdateGlobalConfig(Iris.TemplateConfig.sizeDefault)
 Iris.UpdateGlobalConfig(Iris.TemplateConfig.utilityDefault)
@@ -689,8 +689,8 @@ end
     ```
 ]=]
 
-local wninit = loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/widgets/init.lua'))()(Internal)
-local apiinit = loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/API.lua'))()(Iris)
+getgenv().IRIS_WIDGETS(Internal)
+getgenv().IRIS_API(Iris)
 
 print("IRIS FORK | Preparing Provided Layout")
 return Iris

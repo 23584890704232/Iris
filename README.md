@@ -5,4 +5,4 @@ Iris is an Immediate mode GUI Library for Roblox, Based on [Dear ImGui](https://
 
 ### Fork
 
-Gutted version of Iris v2.5.0 with all the requires replaced with loadstrings for private use
+Gutted version of Iris v2.5.0 with all the requires replaced with loadstrings & getgenv for private use
