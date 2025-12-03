@@ -1,4 +1,4 @@
-local Types = require(script.Parent.Types)
+local Types = loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/Types.lua'))()
 
 export type ID = Types.ID
 export type State<T> = Types.State<T>
