@@ -1,5 +1,6 @@
 local Types = loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/Types.lua'))()
 
+print("IRIS FORK | Loaded /widgets/init.lua")
 local widgets = {} :: Types.WidgetUtility
 
 return function(Iris: Types.Internal)

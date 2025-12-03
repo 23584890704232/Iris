@@ -1,3 +1,5 @@
+
+print("IRIS FORK | Loaded /config.lua")
 local TemplateConfig = {
     colorDark = { -- Dear, ImGui default dark
         TextColor = Color3.fromRGB(255, 255, 255),

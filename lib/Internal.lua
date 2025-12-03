@@ -1,5 +1,5 @@
 local Types = loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/Types.lua'))()
-
+print("IRIS FORK | Loaded /Internal.lua")
 return function(Iris: Types.Iris): Types.Internal
     --[=[
         @class Internal
