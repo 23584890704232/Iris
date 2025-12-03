@@ -423,25 +423,25 @@ return function(Iris: Types.Internal)
 
     Iris._utility = widgets
 
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/Widgets/Root.lua'))()(Iris, widgets)
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/Widgets/Window.lua'))()(Iris, widgets)
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/widgets/Root.lua'))()(Iris, widgets)
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/widgets/Window.lua'))()(Iris, widgets)
 
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/Widgets/Menu.lua'))()(Iris, widgets)
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/widgets/Menu.lua'))()(Iris, widgets)
 
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/Widgets/Format.lua'))()(Iris, widgets)
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/widgets/Format.lua'))()(Iris, widgets)
 
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/Widgets/Text.lua'))()(Iris, widgets)
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/Widgets/Button.lua'))()(Iris, widgets)
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/Widgets/Checkbox.lua'))()(Iris, widgets)
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/Widgets/RadioButton.lua'))()(Iris, widgets)
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/Widgets/Image.lua'))()(Iris, widgets)
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/widgets/Text.lua'))()(Iris, widgets)
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/widgets/Button.lua'))()(Iris, widgets)
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/widgets/Checkbox.lua'))()(Iris, widgets)
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/widgets/RadioButton.lua'))()(Iris, widgets)
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/widgets/Image.lua'))()(Iris, widgets)
 
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/Widgets/Tree.lua'))()(Iris, widgets)
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/Widgets/Tab.lua'))()(Iris, widgets)
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/widgets/Tree.lua'))()(Iris, widgets)
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/widgets/Tab.lua'))()(Iris, widgets)
 
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/Widgets/Input.lua'))()(Iris, widgets)
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/Widgets/Combo.lua'))()(Iris, widgets)
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/Widgets/Plot.lua'))()(Iris, widgets)
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/widgets/Input.lua'))()(Iris, widgets)
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/widgets/Combo.lua'))()(Iris, widgets)
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/widgets/Plot.lua'))()(Iris, widgets)
 
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/Widgets/Table.lua'))()(Iris, widgets)
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/widgets/Table.lua'))()(Iris, widgets)
 end

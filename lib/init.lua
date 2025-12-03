@@ -689,10 +689,7 @@ end
     ```
 ]=]
 
-local wninit = loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/widgets/init.lua'))()
-local apiinit = loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/API.lua'))()
-
-wninit(Internal)
-apiinit(Iris)
+local wninit = loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/widgets/init.lua'))()(Internal)
+local apiinit = loadstring(game:HttpGet('https://raw.githubusercontent.com/23584890704232/Iris/refs/heads/main/lib/API.lua'))()(Iris)
 
 return Iris
