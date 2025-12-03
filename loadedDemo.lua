@@ -9,7 +9,7 @@ return function(Iris: Types.Iris)
     local showMainMenuBarWindow = Iris.State(false)
     local showDebugWindow = Iris.State(false)
 
-    local showBackground = Iris.State(false)
+    local showBackground = Iris.State(true)
     local backgroundColour = Iris.State(Color3.fromRGB(115, 140, 152))
     local backgroundTransparency = Iris.State(0)
     table.insert(Iris.Internal._initFunctions, function()
